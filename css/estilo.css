@@ -1,0 +1,23 @@
+#p1{
+	
+	margin-top: -40px;
+	text-align: justify;
+
+}
+
+#p11,#p1{
+	
+	margin-left: 60px;
+	text-align: justify;
+
+}
+#a1{
+	margin-left: 140px;
+}
+
+@media (max-width: 480px){
+#a1{
+	margin-left: -50px;
+}
+
+
