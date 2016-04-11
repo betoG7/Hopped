@@ -340,23 +340,23 @@
 								</div>
 							</div>
 							<div class="col-lg-6 col-md-8">
-								<form class="inline" id="contactForm" method="post" >
+								<form class="inline" id="contactForm" method="post" action="mail.php" >
 									<div class="row">
 										<div class="col-sm-6 height-contact-element">
 											<div class="form-group">
-												<input type="text" name="first_name" class="form-control custom-labels" id="name" placeholder="NOMBRE COMPLETO" required data-validation-required-message="Escribe tu nombre completo!"/>
+												<input type="text" name="first_name" class="form-control custom-labels" id="name" placeholder="NOMBRE COMPLETO" required data-validation-required-message="Escribe tu nombre completo!" name="nombre" />
 												<p class="help-block text-danger"></p>
 											</div>
 										</div>
 										<div class="col-sm-6 height-contact-element">
 											<div class="form-group">
-												<input type="email" name="email" class="form-control custom-labels" id="email" placeholder="EMAIL" required data-validation-required-message="Escribe tu Email!"/>
+												<input type="email" name="email" class="form-control custom-labels" id="email" placeholder="EMAIL" required data-validation-required-message="Escribe tu Email!" name="email" />
 												<p class="help-block text-danger"></p>
 											</div>
 										</div>
 										<div class="col-sm-12 height-contact-element">
 											<div class="form-group">
-												<input type="text" name="message" class="form-control custom-labels" id="message" placeholder="MENSAJE" required data-validation-required-message="Escribe un Mensaje!"/>
+												<input type="text" name="message" class="form-control custom-labels" id="message" placeholder="MENSAJE" required data-validation-required-message="Escribe un Mensaje!" name="msj" />
 											</div>
 										</div>
 										<div class="col-sm-3 col-xs-6 height-contact-element">
